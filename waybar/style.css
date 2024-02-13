@@ -1,0 +1,242 @@
+
+* {
+    border: none;
+    border-radius: 0;
+    font-family: sans-serif;
+    letter-spacing: 0.5px;
+    font-weight: bold;
+    font-size: 16px;
+    min-height: 0;
+/*    opacity: 1;*/
+}
+@keyframes rainbowText {
+    0% { color: #9400d3; } /* Violet */
+    16.666% { color: #4b0082; } /* Indigo */
+    33.333% { color: #0000ff; } /* Blue */
+    50% { color: #00ff00; } /* Green */
+    66.666% { color: #ffff00; } /* Yellow */
+    83.333% { color: #ff7f00; } /* Orange */
+    100% { color: #ff0000; } /* Red */
+}
+
+window#waybar {
+    background: none;
+/*    backdrop-filter: blur(5px);*/
+    color: #d8dbe7;
+    background-color:rgba(18, 18, 18,0.5)
+
+}
+
+tooltip {
+    background: #1e1e2e;
+    border-radius: 10px;
+    border-width: 2px;
+    border-style: solid;
+    border-color: #11111b;
+}
+
+#workspaces button {
+/*    color: #;*/
+    margin-right: 5px;
+}
+
+#workspaces button.active {
+/*    animation: rainbowText 2s infinite; */
+    color: #d8dbe7;
+    border-radius: 100px;
+}
+
+#workspaces button.focused {
+    color: #d8dbe7;
+    background: #eba0ac;
+    border-radius: 100px;
+}
+
+#workspaces button.urgent {
+    color: #11111b;
+    background: #fa6565;
+    border-radius: 100px;
+}
+
+#workspaces button:hover {
+    background: #d8dbe7;
+    color:#11111b;
+/*    padding: 5px;*/
+    
+    border-radius: 100px;
+}
+
+/* Adjustments for individual modules */
+#custom-power_profile,
+#custom-weather,
+#window,
+#clock,
+#battery,
+#pulseaudio,
+#network,
+#bluetooth,
+#temperature,
+#workspaces,
+#tray,
+#backlight {
+    background: none; /* Remove background color */
+    padding: 0px 10px;
+    margin: 3px 0px;
+    margin-top: 10px;
+
+}
+
+/* Additional customization for specific modules */
+#temperature {
+    border-radius: 10px 0px 0px 10px;
+}
+
+
+#custom-arch{
+    border-radius: 100px; /* Add border-radius for all edges */
+    margin-left: 15px;
+/*    border-right: 0px;*/
+/*    margin-right: 5px;*/
+/*    background: #9f9f9f;*/
+/*    background: #404040;*/
+/*    border: solid #404040 2px;*/
+/*    padding: 5px 0px 0px 0px;*/
+    padding-left: 10px;
+    padding-right: 8px;
+    border-right: 0px;
+    background: #202020;
+    margin-bottom: 10px;
+    margin-top: 10px;
+}
+
+
+#temperature.critical {
+    color: #eba0ac;
+}
+
+#backlight {
+/*    border-radius: 10px 0px 0px 10px;*/
+/*    background: #9f9f9f;*/
+/*    background: #efefef;*/
+/*    border: solid #404040 2px;*/
+    border-left: 0px;
+    border-right: 0px;
+    background: #202020;
+    margin-bottom: 10px;
+}
+
+#tray {
+    border-radius: 100px;
+    margin-right: 10px;
+    background: #202020;
+    margin-bottom: 10px;
+}
+
+#workspaces {
+/*    background: #1e1e2e;*/
+/*    background:none;*/
+/*    background: #404040;*/
+    border-radius: 0px 100px 100px 0px;
+    margin-left: 0px;
+    padding-right: 5px;
+    padding-left: 10px;
+/*    border: solid #404040 2px;*/
+    border-left: 0px;
+    background: #202020;
+    margin-bottom: 10px;
+}
+
+/* Adjust font and border for individual modules */
+#custom-power_profile {
+    color: #a6e3a1;
+    border-left: 0px;
+    border-right: 0px;
+}
+
+#window {
+    border-radius: 10px;
+    margin-left: 60px;
+    margin-right: 60px;
+}
+
+#clock {
+/*    color: #cdd6f4;*/
+
+    border-radius: 100px 0px 0px 100px; /* Add border-radius for all edges */
+    margin-left: 15px;
+/*    border-right: 0px;*/
+/*    margin-right: 5px;*/
+/*    background: #9f9f9f;*/
+/*    background: #404040;*/
+/*    border: solid #404040 2px;*/
+    border-right: 0px;
+    background: #202020;
+    margin-bottom: 10px;
+}
+
+
+#network {
+/*    color: #f9e2af;*/
+    border-radius: 100px 0px 0px 100px;
+/*    background: #404040;*/
+/*    border: solid #404040 2px;*/
+/*    border-left: 0px;*/
+    border-right: 0px;
+    background: #202020;
+    margin-bottom: 10px;
+}
+
+#bluetooth {
+    color: #89b4fa;
+    border-radius: 0px 10px 10px 0px;
+    margin-right: 10px
+} 
+
+#pulseaudio {
+/*    color: #89b4fa;*/
+/*    background: #404040;*/
+/*    border: solid #404040 2px;*/
+    border-radius: 100px 0px 0px 100px;
+    background: #202020;
+    margin-bottom: 10px;
+    
+    border-right: 0px;
+}
+
+#pulseaudio.microphone {
+/*    color: #cba6f7;*/
+    
+    border-radius: 0px 100px 100px 0px; 
+/*    background: #404040;*/
+/*    border: solid #404040 2px;*/
+/*    border-right: 2px;*/
+    margin-right: 10px;
+    border-left: 0px;
+    background: #202020;
+    margin-bottom: 10px;
+    
+}
+@keyframes batteryAnimation {
+    0% { color: #00ff00; } /* Red color for low charge */
+    25% { color: #ffff00; }
+    75% { color: #ffff00; } /* Yellow color for medium charge */
+    100% { color: #00ff00; } /* Green color for high charge */
+}
+#battery {
+    animation: batteryAnimation 3s infinite; /* Animate the background color */
+/*    color: #a6e3a1;*/
+    border-radius: 0px 100px 100px 0px; /* Adjust border-radius */
+/*    background: #404040;*/
+/*    border: solid #404040 2px;*/
+    margin-right: 10px;
+    border-left: 0px;
+    background: #202020;
+    margin-bottom: 10px;
+/*    margin-left: 1s0px;*/
+}
+
+#custom-weather {
+    border-radius: 10px; /* Add border-radius for all edges */
+    
+    margin-left: 0px;
+}
