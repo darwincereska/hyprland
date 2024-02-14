@@ -1,4 +1,4 @@
-[Preview](screenshots/2024-02-12-194216_hyprshot.png)
+(screenshots/2024-02-12-194216_hyprshot.png)
 # A Hyprland Config/Installer Made Simple
 
 This Hyprland Config/Installer has a bunch of amazing keybinds, good performance, and preinstalled software
