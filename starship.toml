@@ -1,21 +1,18 @@
 format = """
-[  ](bg:#000000 fg:#ffffff)\
-[](bg:#ffffff fg:#000000)\
+[   ](fg:#ffffff)\
+
 $directory\
 \
 $git_branch\
 $git_status\
-
-
 $time\
-[ ](fg:#ffffff)\
 \n$character"""
 
 [directory]
-style = "fg:#000000 bg:#ffffff"
+style = "fg:#ffffff"
 format = "[ $path ]($style)"
 truncation_length = 3
-truncation_symbol = "…/"
+truncation_symbol = ""
 
 [directory.substitutions]
 "Documents" = " "
@@ -25,12 +22,12 @@ truncation_symbol = "…/"
 
 [git_branch]
 symbol = ""
-style = "bg:#ffffff"
-format = '[[ $symbol $branch ](fg:#000000 bg:#ffffff)]($style)'
+style = "fg:#ffffff"
+format = '[[ $symbol $branch ]( fg:#ffffff)]($style)'
 
 [git_status]
-style = "bg:#ffffff"
-format = '[[($all_status$ahead_behind )](fg:#000000 bg:#ffffff)]($style)'
+style = "fg:#ffffff"
+format = '[[($all_status$ahead_behind )]( fg:#ffffff)]($style)'
 
 [nodejs]
 symbol = ""
