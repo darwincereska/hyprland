@@ -66,9 +66,9 @@ if [[ $INST == "Y" || $INST == "y" ]]; then
     swappy grim slurp pamixer brightnessctl gvfs \
     bluez bluez-utils lxappearance xfce4-settings \
     dracula-gtk-theme dracula-icons-git xdg-desktop-portal-hyprland \
-    firefox sublime-text tty-clock gtop waypaper hyprshot nano \
-    htop blueman nm-applet thunar-archive-plugin file-roller \
-    wlr-randr nwg-displays
+    chromium sublime-text tty-clock gtop waypaper hyprshot nano \
+    blueman nm-applet \
+    wlr-randr nwg-displays nemo bpytop micro iwd
 
     # Start the bluetooth service
     echo -e "Starting the Bluetooth Service...\n"
