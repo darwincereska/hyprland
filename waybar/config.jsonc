@@ -52,6 +52,9 @@
         //shows the current weather and forecast
         // "tooltip" : true,
         "format" : " ",
+        "on-click":"wofi",
+        "tooltip":true,
+        "tooltip-format":"Show Apps"
         // "interval" : 30,
         // "exec" : "~/.config/waybar/scripts/waybar-wttr.py",
         // "return-type" : "json"
