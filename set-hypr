@@ -67,7 +67,7 @@ if [[ $INST == "Y" || $INST == "y" ]]; then
     bluez bluez-utils lxappearance xfce4-settings \
     dracula-gtk-theme dracula-icons-git xdg-desktop-portal-hyprland \
     chromium sublime-text tty-clock gtop waypaper hyprshot nano \
-    blueman nm-applet \ zsh hyprlock hypridle 
+    blueman nm-applet \ zsh hyprlock hypridle pyprland
     wlr-randr nwg-displays nemo bpytop micro iwd zsh cava fzf vlc thefuck
 
     # Start the bluetooth service
