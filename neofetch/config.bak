@@ -18,8 +18,8 @@ print_info() {
     #info "Icons" icons
     info "Terminal" term
     #info "Terminal Font" term_font
-   # info "CPU" cpu
-   # info "GPU" gpu
+    info "CPU" cpu
+    info "GPU" gpu
     info "Memory" memory
 
     # info "GPU Driver" gpu_driver  # Linux/macOS only
@@ -760,7 +760,7 @@ image_source="auto"
 #       Slackware, SunOS, LinuxLite, OpenSUSE, Raspbian,
 #       postmarketOS, and Void have a smaller logo variant.
 #       Use '{distro name}_small' to use the small variants.
-ascii_distro="arcolinux_small"
+ascii_distro="arch_small"
 
 # Ascii Colors
 #
