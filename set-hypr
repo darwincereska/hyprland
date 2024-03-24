@@ -67,7 +67,7 @@ if [[ $INST == "Y" || $INST == "y" ]]; then
     bluez bluez-utils lxappearance xfce4-settings \
     dracula-gtk-theme dracula-icons-git xdg-desktop-portal-hyprland \
     chromium sublime-text tty-clock gtop waypaper hyprshot nano \
-    blueman nm-applet \
+    blueman nm-applet \ zsh hyprlock hypridle 
     wlr-randr nwg-displays nemo bpytop micro iwd zsh cava fzf vlc thefuck
 
     # Start the bluetooth service
@@ -92,7 +92,8 @@ if [[ $CFG == "Y" || $CFG == "y" ]]; then
     cp -R wofi ~/.config/
     cp -R Backgrounds ~/
     cp -R neofetch ~/.config/
-    cp .bashrc ~/
+    cp -R .bashrc ~/
+    cp -R zshrc-ex ~/.zshrc
     
     # Set some files as exacutable 
     chmod +x ~/.config/hypr/xdg-portal-hyprland

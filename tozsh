@@ -1,0 +1,1 @@
+sudo chsh $USER -s /bin/zsh && echo 'Now log out.'
