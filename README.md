@@ -1,6 +1,15 @@
 ![Preview](screenshots/2024-02-12-194216_hyprshot.png)
-# A Hyprland Config/Installer Made Simple
 
+
+#  _   _                  _                 _  
+# | | | |_   _ _ __  _ __| | __ _ _ __   __| | 
+# | |_| | | | | '_ \| '__| |/ _` | '_ \ / _` | 
+# |  _  | |_| | |_) | |  | | (_| | | | | (_| | 
+# |_| |_|\__, | .__/|_|  |_|\__,_|_| |_|\__,_| 
+#        |___/|_|                              
+# 
+# Config by @darwincereska
+# https://github.com/darwincereska/hyprland
 This Hyprland Config/Installer has a bunch of amazing keybinds, good performance, and preinstalled software
 
 
