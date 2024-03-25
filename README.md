@@ -1,15 +1,7 @@
 ![Preview](screenshots/2024-02-12-194216_hyprshot.png)
 
 
-#  _   _                  _                 _  
-# | | | |_   _ _ __  _ __| | __ _ _ __   __| | 
-# | |_| | | | | '_ \| '__| |/ _` | '_ \ / _` | 
-# |  _  | |_| | |_) | |  | | (_| | | | | (_| | 
-# |_| |_|\__, | .__/|_|  |_|\__,_|_| |_|\__,_| 
-#        |___/|_|                              
-# 
-# Config by @darwincereska
-# https://github.com/darwincereska/hyprland
+# Hyprland Dotfiles Made Easy
 This Hyprland Config/Installer has a bunch of amazing keybinds, good performance, and preinstalled software
 
 
@@ -22,14 +14,14 @@ This Hyprland Config/Installer has a bunch of amazing keybinds, good performance
 - swwm
 - Sublime Text
 - Neofetch
-- Firefox
-- SwayBG and Swaylock
+- Chromium
+- Hyprlock and Hypridle
 - Wofi Application Launcher
 - Starship Shell Prompt
 - Hyprshot Screenshot Tool
 - tty-clock a Simple Terminal Clock
-- GTOP and HTOP terminal system monitor 
-
+- GTOP and BPYTOP terminal system monitor 
+- ZSH Shell for better experience
 
 ## Requisites
 - You need to have `Arch Linux`
